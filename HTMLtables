@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+  <h1>HTML Tables</h1>
+  
+    <table>
+      <thead>
+      <h2><th class="header" colspan=3>Tables are fun</th></h2>
+      <tr><th>HTML Tag</th>
+      <th>Name</th>
+      <th>What it does</th></tr>
+      </thead>
+      <tbody>
+      <tr><p>
+        <td>&lttable&gt</td>
+        <td>Table</td>
+        <td>Place this at the start &amp end of your table.</td></p>
+     </tr>
+     <tr>
+        <td>&ltthead&gt</td>
+        <td>Table Head</td>
+        <td>Rows that set the column headers in the table.</td>
+      </tr>
+      <tr>
+        <td>&ltth&gt</td>
+        <td>Table Header</td>
+        <td>I use this to add columns of headers.</td>
+     </tr>
+     <tr>
+        <td>&lttbody&gt</td>
+        <td>Table Body</td>
+        <td>The rows containing the table data.</td>
+     </tr>
+     <tr>
+        <td>&lttr&gt</td>
+        <td>Table Row</td>
+        <td>Creates a new row within the table.</td>
+     </tr>
+     <tr>
+      <td>&lttd&gt</td>
+      <td>Table Data</td>
+      <td>The actual data.</td>
+     </tr>
+     <tr>
+      <td>&lttfoot&gt</td>
+      <td>Table Footer</td>
+      <td>Rows that define the footer.</td>
+     </tr>
+     </tbody>
+    </table>
+  <br>
+  <br>
+      <table>
+        <thead><th class="header" colspan=3>Table Attributes</th></thead>
+        <tr><thead>
+         <th>Attribute</th>
+        <th>Name</th>
+        <th>What is does</th>
+         </thead>
+        </tr>
+        <tbody>
+        <tr>
+          <td>colspan=</td>
+          <td>Column Span</td>
+          <td>Is like merge cell, so defines how many colunms td should merge into.</td>
+        </tr>
+        <tr>
+          <td>rowspan=</td>
+          <td>Row Span</td>
+          <td>As above but for rows.</td>
+        </tr>
+        </tbody>
+      </table>
+  <br>
+  <br>
+        <table>
+          <thead>
+            <th class="header" colspan=2>Fun fact</th>
+            <tr>
+              <th>What you want to show</th>
+              <th>How to show it</th>
+            </tr>
+            <tr>
+              <td>&lt</td>
+              <td>Simply add in the &amp sign and lt right after.</td>
+            </tr>
+            <tr>
+              <td>&gt</td>
+              <td>Simply add in the &amp sign and gt right after.</td>
+            </tr>
+          </thead>
+        </table>
+</body>
+</html>
