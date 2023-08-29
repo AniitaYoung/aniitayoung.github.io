@@ -1,0 +1,218 @@
+html {
+    font-size: 16px;
+    
+}
+
+.container {
+    display: grid;
+    max-width: 1200px;
+    min-width: 220px;
+    position: relative;
+    margin: auto;
+    gap: 5px;
+    grid-template-areas: "nav nav logo logo nav nav"
+                         "mainimage mainimage mainimage mainimage mainimage mainimage"
+                         "firstrowtext firstrowtext frimg frimg frimg frimg"
+                         "srimg srimg srimg srimg secondrowtext secondrowtext"
+                         "contact contact contact map map map";
+    grid-template-rows: 100px 500px 400px 400px 300px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+}
+
+h2 {
+    font-family: 'Megrim', cursive;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+a {
+    font-family: 'Megrim', cursive;
+    font-size: 2rem;
+    color: rgb(0,9,47);
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mainimage {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid rgb(0,9,47);
+}
+
+.firstrowtext {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: rgb(0,9,47);
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.firstrowtext p {
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.frimg {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.srimg {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+}
+
+.secondrowtext {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: rgb(0,9,47);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+.contact {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+ 
+}
+
+.contact h2 {
+    font-family: 'Megrim', cursive;
+    color: rgb(0,9,47);
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.contact p {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0,9,47);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.map {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (min-width: 220px) and (max-width: 480px), (orientation: portrait)  {
+     .logo {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-left: 3.78rem;
+        margin-bottom: 0rem;
+    }
+
+    .mainimage {
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        max-width: 27rem;
+        max-height: 15rem;
+        margin-left: 1rem;
+        margin-top: 12rem;
+    }
+      
+    .mainimage img {
+        width: 27rem;  
+        height: 15rem;         
+     }
+
+     .firstrowtext {
+        display: flex;
+        justify-items: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 3.78rem;
+        margin-top: 0rem;
+     }
+
+     .secondrowtext {
+        display: flex;
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 3.78rem;
+     }
+
+    .frimg {
+        display: none;
+    }
+
+    .srimg {
+        display: none;
+    }
+
+    .contact {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 3.78rem;    
+                
+    }
+
+    .contact p {
+        padding-bottom: 2rem;
+        
+    }
+
+    .map {
+        display: none;
+    }
+  }
+  
