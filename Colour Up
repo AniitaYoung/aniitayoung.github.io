@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Megrim&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, inital-scale=1">
+<title>Colour Up Bristol</title>
+
+<html>
+    <div class="container">
+        <div class="logo">
+            <nav class="nav1">
+                <a href="#waw">Who are we</a>
+            </nav>
+            <img src="C:\Users\aniit\OneDrive\Desktop\Codecademy Projects\Colour Up Club Page\Images\Logo.png">
+            <nav class="nav2">
+                <a href="#wwm">Where we meet</a>
+            </nav>
+        </div>
+        
+        <section class="mainimage"><img src="C:\Users\aniit\OneDrive\Desktop\Codecademy Projects\Colour Up Club Page\Images\Main.png"></section>
+        
+        <section id="waw" class="firstrowtext">
+            <h2>Who are we</h2>
+            <p>Colour Up is an independent social climbing group that focuses on bringing individuals from ethnic minorities together. The group is for those aged 16+. They offer informal and inclusive sessions, run by fellow climbers members just like you. No experience is necessary to attend. There will be a Colour Up representative at each session to help introduce you to other like-minded individuals.</p>
+           </section>
+       
+        <section class="frimg">
+             <img src="C:\Users\aniit\OneDrive\Desktop\Codecademy Projects\Colour Up Club Page\Images\Glasses.jpg">
+           </section>
+      
+        <section class="srimg"><img src="C:\Users\aniit\OneDrive\Desktop\Codecademy Projects\Colour Up Club Page\Images\Outdoor.jpg">
+            </section>
+       
+        <section id="wwm" class="secondrowtext">
+                <h2>Where we meet</h2>
+                <p>We are blessed with so many great climbing gyms here in Bristol (our home) that we like to meet at alternate ones each week. 
+                    They include, Redpoint, Flashpoint & TCA. Anddd when the weather is kind to us, we like to grab our gear and head outdoors.
+                </p>
+            </section>
+       
+        <section class="contact">
+            <h2>Contact details</h2>
+            <p>You can find us on Instagram <strong>@colourupbristol</strong></p>
+            <p>Or Facebook <strong>ColourUpBristol</strong></p>
+            <p>OR feel free to email us at <strong>@gmail.com</strong></p>
+            </section>
+
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5915.971060911923!2d-2.6114587962151514!3d51.433192703220016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718c30a8a57387%3A0x89fada632b15286!2sRedpoint%20Bristol!5e0!3m2!1sen!2suk!4v1693229646851!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+    </html>
